@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004696",
-  "source": "openneuro",
-  "source_id": "ds004696",
+  "pipeline_stage": "enriched",
   "title": "HAPwave_bids",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ojeda Valencia, G.": {},
     "Gregg, N.": {},
@@ -17,24 +17,31 @@
     "Huston, J.": {},
     "Worrell1, G.": {},
     "Miller, K.": {},
-    "Hermes, D.": {}
+    "Hermes, D.": {
+      "orcid": "0000-0002-8683-8909"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004696.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004696",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004696",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1523/JNEUROSCI.2201-22.2023",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.12.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
@@ -42,7 +49,74 @@
     },
     {
       "funder_name": "The DERIVE Office and the Mayo Clinic Center for Biomedical Discovery"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01MH122258",
+      "award_title": "CRCNS: Processing speed in the human connectome across the lifespan"
     }
   ],
-  "acknowledgements": "Special thanks to the Mayo Clinic, particularly to the Multimodal Neuroimaging Laboratory (MNL), the Bioelectronics Neurophysiology and Engineering Laboratory (BNEL), the DERIVE Office and the Mayo Clinic Center for Biomedical Discovery"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".gii",
+    ".gz",
+    ".json",
+    ".mat",
+    ".md",
+    ".nii",
+    ".tdat",
+    ".tidx",
+    ".tmet",
+    ".tsv"
+  ],
+  "description": "This dataset comprises intracranial EEG recordings from 8 patients undergoing single-pulse electrical stimulation of limbic system structures during rest. The data were collected to investigate electrical stimulation-driven network interactions in the human brain, with stimulation parameters of 200 microseconds duration, biphasic waveforms, and 6 mA amplitude (4 mA for one subject). The dataset is organized according to BIDS specification and includes raw iEEG recordings with associated metadata and event timing information.",
+  "methods_description": "Intracranial EEG recordings were acquired from 8 patients at rest during single-pulse electrical stimulation. Stimulation parameters: 200 microsecond duration, biphasic waveforms, 6 mA amplitude (4 mA for subject 7). Data organized in BIDS format with electrode localization and event timing metadata.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "Limbic System",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008032"
+    },
+    {
+      "term": "connectome"
+    },
+    {
+      "term": "network interactions"
+    },
+    {
+      "term": "single-pulse stimulation"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "brain stimulation"
+    },
+    {
+      "term": "neuromodulation"
+    },
+    {
+      "term": "human brain connectivity"
+    },
+    {
+      "term": "clinical neurophysiology"
+    },
+    {
+      "term": "electrode localization"
+    }
+  ],
+  "source_hash": "64c6369450ced9d7e39201c3987d8b47298efe893c308e31284a21d6f22635cd"
 }
