@@ -1,0 +1,48 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004696",
+  "source": "openneuro",
+  "source_id": "ds004696",
+  "title": "HAPwave_bids",
+  "authors": {
+    "Ojeda Valencia, G.": {},
+    "Gregg, N.": {},
+    "Huang, H.": {},
+    "Lundstrom, B.": {},
+    "Brinkmann, B.": {},
+    "Pal Attia1, T.": {},
+    " Van Gompel, J.": {},
+    "Bernstein,M.": {},
+    "In, M.": {},
+    "Huston, J.": {},
+    "Worrell1, G.": {},
+    "Miller, K.": {},
+    "Hermes, D.": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004696.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.12.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NIH RO1MH122258"
+    },
+    {
+      "funder_name": "The DERIVE Office and the Mayo Clinic Center for Biomedical Discovery"
+    }
+  ],
+  "acknowledgements": "Special thanks to the Mayo Clinic, particularly to the Multimodal Neuroimaging Laboratory (MNL), the Bioelectronics Neurophysiology and Engineering Laboratory (BNEL), the DERIVE Office and the Mayo Clinic Center for Biomedical Discovery"
+}
