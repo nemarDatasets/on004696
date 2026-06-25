@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004696-blue)](https://doi.org/10.82901/nemar.on004696)
+
 # Information
 This dataset contains intracranial EEG (iEEG) recordings from 8 patients during single pulse electrical stimulation used in the publication of:
 Ojeda Valencia G, Gregg N, Huang H, Lundstrom B, Brinkmann B, Pal Attia T, Van Gompel J, Bernstein M, In MH, Huston J, Worrell G, Miller KJ, and Hermes D. 2023. Signatures of electrical stimulation driven network interactions in the human limbic system. Journal of Neuroscience (in press).
