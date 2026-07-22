@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "HAPwave_bids",
-  "description": "This dataset comprises intracranial EEG recordings from 8 patients undergoing single-pulse electrical stimulation of limbic system structures. The data were collected to investigate electrical stimulation-driven network interactions in the human brain, with stimulation parameters of 200 microseconds duration, biphasic waveform, and 6 mA amplitude (4 mA for one subject). The dataset is organized according to BIDS specification and includes raw iEEG recordings with associated metadata and event timing information.",
+  "description": "This dataset comprises intracranial EEG recordings from 8 patients during single-pulse electrical stimulation of the limbic system. The data were collected to investigate electrical stimulation-driven network interactions in human brain circuits, with stimulation parameters of 200 microseconds duration, biphasic waveform, and 6 mA amplitude (4 mA for one subject). The dataset is organized according to BIDS specification and includes raw iEEG data with associated metadata and event timing information.",
   "methods_description": "Intracranial EEG recordings were obtained from 8 patients at rest in a hospital bed during single-pulse electrical stimulation. Stimulation parameters: 200 microsecond duration, biphasic waveform, 6 mA amplitude (4 mA for subject 7 to minimize interictal responses).",
   "license": "CC0",
   "dataset_type": "raw",
@@ -25,14 +25,10 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "intracranial EEG"
     },
     {
-      "term": "electrical stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004558"
+      "term": "electrical stimulation"
     },
     {
       "term": "Limbic System",
@@ -40,35 +36,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D008032"
     },
     {
-      "term": "brain connectivity",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001930"
+      "term": "brain connectivity"
     },
     {
-      "term": "neural networks",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D016571"
+      "term": "neural networks"
     },
     {
-      "term": "human connectome",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001930"
-    },
-    {
-      "term": "single-pulse stimulation"
-    },
-    {
-      "term": "network interactions"
+      "term": "human connectome"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004696",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004696",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -81,6 +60,11 @@
       "identifier": "10.18112/openneuro.ds004696.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004696",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -94,12 +78,6 @@
       "funder_name": "NIH",
       "award_number": "R01MH122258",
       "award_title": "CRCNS: Processing speed in the human connectome across the lifespan"
-    },
-    {
-      "funder_name": "The DERIVE Office"
-    },
-    {
-      "funder_name": "Mayo Clinic Center for Biomedical Discovery"
     }
   ],
   "resource_type_general": "Dataset",
